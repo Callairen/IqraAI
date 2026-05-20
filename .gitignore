@@ -1,0 +1,27 @@
+# Python environment & cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+env/
+venv/
+env.bak/
+venv.bak/
+
+# Streamlit/UI
+.streamlit/
+
+# IDE & Editor (Sangat penting agar konfigurasi VS Code tiap orang tidak bentrok)
+.vscode/
+.idea/
+
+# Jupyter Notebook / Google Colab Caches (Jika ada yang menguji data via notebook)
+.ipynb_checkpoints/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
