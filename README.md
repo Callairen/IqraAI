@@ -97,7 +97,7 @@ python src/train.py
 ### 4. Jalankan Aplikasi Streamlit
 
 ```bash
-streamlit run app.py
+python -m streamlit run app.py
 ```
 
 ---
