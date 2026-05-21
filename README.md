@@ -1,6 +1,6 @@
 # Iqra AI: Sistem Pengenalan Huruf Konsonan Arab
 
-Iqra AI adalah proyek *Machine Learning* berbasis **Jaringan Saraf Tiruan (JST)** yang menggunakan arsitektur **Single-Layer Multi-Node Perceptron** untuk mengenali dan mengklasifikasikan 14 huruf konsonan Arab dalam format *isolated*.
+Iqra AI adalah proyek *Machine Learning* berbasis **Jaringan Saraf Tiruan (JST)** yang menggunakan arsitektur **Single-Layer Multi-Node Perceptron** untuk mengenali dan mengklasifikasikan 28 huruf konsonan Arab dalam format *isolated*.
 
 Sistem ini dilengkapi dengan antarmuka interaktif berbasis Streamlit sehingga pengguna dapat melakukan pengujian model secara langsung dan visual.
 
@@ -8,7 +8,7 @@ Sistem ini dilengkapi dengan antarmuka interaktif berbasis Streamlit sehingga pe
 
 ## 📌 Fitur Utama
 
-- Klasifikasi 14 huruf konsonan Arab
+- Klasifikasi 28 huruf konsonan Arab
 - Implementasi algoritma Perceptron multi-node
 - Visualisasi proses training dan error
 - Antarmuka interaktif menggunakan Streamlit
@@ -22,8 +22,8 @@ Sistem ini dilengkapi dengan antarmuka interaktif berbasis Streamlit sehingga pe
 - **Input Layer:** 35 neuron  
   Merepresentasikan grid piksel berukuran `7 × 5`
 
-- **Output Layer:** 14 neuron  
-  Merepresentasikan 14 kelas huruf Arab
+- **Output Layer:** 28 neuron  
+  Merepresentasikan 28 kelas huruf Arab
 
 ### Konfigurasi Model
 - **Arsitektur:** Single-Layer Multi-Node Perceptron
@@ -109,7 +109,7 @@ Dataset direpresentasikan dalam bentuk grid biner berukuran `7 × 5` yang mengga
 Setiap pola:
 - Memiliki 35 fitur input
 - Direpresentasikan menggunakan nilai bipolar (`-1` dan `1`)
-- Dipetakan ke salah satu dari 14 kelas huruf
+- Dipetakan ke salah satu dari 28 kelas huruf
 
 ---
 
